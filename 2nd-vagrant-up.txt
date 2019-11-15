@@ -1,0 +1,21 @@
+$ vagrant up
+Bringing machine 'project-local' up with 'virtualbox' provider...
+==> project-local: Checking if box 'geerlingguy/ubuntu1604' version '1.3.1' is up to date...
+==> project-local: [vagrant-hostsupdater] Checking for host entries
+==> project-local: [vagrant-hostsupdater]   found entry for: 192.168.234.176 project-local.local
+==> project-local: [vagrant-hostsupdater]   found entry for: 192.168.234.176 local-site.local
+==> project-local: [vagrant-hostsupdater]   found entry for: 192.168.234.176 adminer.project-local.local
+==> project-local: [vagrant-hostsupdater]   found entry for: 192.168.234.176 xhprof.project-local.local
+==> project-local: [vagrant-hostsupdater]   found entry for: 192.168.234.176 pimpmylog.project-local.local
+==> project-local: [vagrant-hostsupdater]   found entry for: 192.168.234.176 192.168.234.176
+==> project-local: [vagrant-hostsupdater]   found entry for: 192.168.234.176 dashboard.project-local.local
+==> project-local: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> project-local: flag to force provisioning. Provisioners marked to run always will still run.
+
+==> project-local: Machine 'project-local' has a post `vagrant up` message. This is a message
+==> project-local: from the creator of the Vagrantfile, and not from Vagrant itself:
+==> project-local:
+==> project-local: Your Drupal VM Vagrant box is ready to use!
+==> project-local: * Visit the dashboard for an overview of your site: http://dashboard.project-local.local (or http://192.168.234.176)
+==> project-local: * You can SSH into your machine with `vagrant ssh`.
+==> project-local: * Find out more in the Drupal VM documentation at http://docs.drupalvm.com
